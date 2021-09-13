@@ -1,0 +1,120 @@
+/*UNIVERSAL STYLES*/
+.btn{
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 0.5px;
+    color: #fff;
+}
+
+.orange-line{
+    width: 80px;
+    height: 3px;
+    background: #FF7500;
+}
+
+
+/*HEADING STYLES*/
+
+header{
+    background-color: #fff;
+}
+
+.header-link{
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+}
+
+
+/*HERO PART STYLES*/
+
+.hero{
+    background: #252420;
+}
+
+.hero-content{
+    width: 390px; 
+    color: #fff;   
+}
+
+.hero-heading{
+    font-size: 40px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+}
+
+.hero-text{
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+
+
+/*FEATURES SECTION STYLES*/
+
+.features{
+    background-color: #fff;
+    color: #000;
+}
+
+.features-heading{
+    font-size: 72px;
+    line-height: 120%;
+}
+
+.icon-heading{
+    font-size: 24px;
+    line-height: 120%;
+}
+
+.features-info{
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.5px;
+}
+
+.feature-icon-wrapper{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 117, 0, 0,2);
+}
+
+
+/*SALE SECTION STYLES*/
+
+.sale{
+    background: #252420;
+    color: #fff;
+}
+
+.sale-heading{
+    font-style: 48px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+}
+
+.sale-info{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+}
+
+
+/*FOOTER PART STYLES*/
+
+footer{
+    background-color: #f8f8f8;
+    color: #000;
+}
+
+.footer-link{
+    font-style: 16px;
+    line-height: 19px;
+    text-decoration: none;
+    color: #000;
+}
