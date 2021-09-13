@@ -5,12 +5,13 @@
     line-height: 15px;
     letter-spacing: 0.5px;
     color: #fff;
+    background-color: #ff7500;
 }
 
 .orange-line{
     width: 80px;
     height: 3px;
-    background: #FF7500;
+    background: #ff7500;
 }
 
 
@@ -18,6 +19,10 @@
 
 header{
     background-color: #fff;
+}
+
+.nav-list{
+    list-style: none;
 }
 
 .header-link{
@@ -67,6 +72,10 @@ header{
     line-height: 120%;
 }
 
+.feature{
+    width: 340px;
+}
+
 .icon-heading{
     font-size: 24px;
     line-height: 120%;
@@ -92,6 +101,10 @@ header{
     color: #fff;
 }
 
+.sale-content{
+    width: 440px;
+}
+
 .sale-heading{
     font-style: 48px;
     line-height: 1.2;
@@ -104,12 +117,24 @@ header{
     letter-spacing: 0.5px;
 }
 
+.sale-highlight{
+    color: #ff7500;
+}
+
 
 /*FOOTER PART STYLES*/
 
 footer{
     background-color: #f8f8f8;
     color: #000;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.footer-links{
+    width: 224px;
 }
 
 .footer-link{
