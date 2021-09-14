@@ -5,6 +5,12 @@ body{
     line-height: 1.5;
     letter-spacing: 0.5px;
 }
+
+*:focus{
+    outline: 2px dashed #ff7500;
+    outline-offset: 3px;
+}
+
 .btn{
     font-weight: bold;
     font-size: 13px;
@@ -219,6 +225,6 @@ footer{
     color: #ff7500;
 }
 
-.footer-link:focus{
+.footer-link:active{
     opacity: 0.6;
 }
