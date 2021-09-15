@@ -18,6 +18,11 @@ body{
     color: #fff;
     background-color: #ff7500;
     transition: opacity 0.4s ease;
+    padding: 12px 24px;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+
 }
 
 .btn:hover{
@@ -32,6 +37,7 @@ body{
     width: 80px;
     height: 3px;
     background: #ff7500;
+    border: none;
 }
 
 
@@ -42,6 +48,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 5px solid #ff7500;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .logo-link{
@@ -64,6 +73,7 @@ header{
 .nav-list{
     list-style: none;
     display: flex;
+    padding: 0;
 }
 
 .header-link{
@@ -93,6 +103,8 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-top: 80px;
+    padding-bottom: 80px;
 }
 
 .hero-content{
@@ -106,12 +118,20 @@ header{
     line-height: 120%;
 }
 
+.hero-img{
+    border-radius: 8px;
+    height: 510px;
+    width: 510px;
+    object-fit: cover;
+}
 
 /*FEATURES SECTION STYLES*/
 
 .features{
     background-color: #fff;
     color: #000;
+    padding-bottom: 210px;
+    padding-top: 210px;
 }
 
 .features-heading{
@@ -124,6 +144,7 @@ header{
     list-style: none;
     display: flex;
     justify-content: space-between;
+    padding: 0;
 }
 
 .feature{
@@ -138,7 +159,11 @@ header{
 .feature-icon-wrapper{
     width: 100px;
     height: 100px;
-    background-color: rgba(255, 117, 0, 0,2);
+    background-color: rgba(255, 117, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%
 }
 
 .features-title{
@@ -155,6 +180,9 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 120px;
+    padding-bottom: 160px;
+    border-radius: 12px;
 }
 
 .sale-content{
@@ -167,6 +195,13 @@ header{
     line-height: 1.2;
 }
 
+.sale-img{
+    border-radius: 12px;
+    object-fit: cover;
+    width: 440px;
+    height: 440px;
+}
+
 .sale-highlight{
     color: #ff7500;
 }
@@ -177,6 +212,8 @@ header{
 footer{
     background-color: #f8f8f8;
     color: #000;
+    padding-bottom: 56px;
+    padding-top: 56px;
 }
 
 .footer-top{
@@ -185,21 +222,28 @@ footer{
     align-items: center;
 }
 
+.footer-divider{
+    height: 2px;
+    background-color: rgba(37, 36, 32, 0,5);
+    border: none;
+}
+
 .social-networks{
     list-style: none;
     display: flex;
+    padding: 0;
 }
 
-.social-network a{
+.social-network-icon{
     color: #252420;
     transition: color 0.4s ease, opacity 0.4s ease;
 }
 
-.social-network a:hover{
+.social-network-icon:hover{
     color: #ff7500;
 }
 
-.social-network a:active{
+.social-network-icon:active{
     opacity: 0.6;
 }
 
@@ -211,6 +255,7 @@ footer{
 .footer-links{
     list-style: none;
     width: 224px;
+    padding: 0;
 }
 
 .footer-link{
